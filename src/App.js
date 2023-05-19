@@ -17,7 +17,7 @@ class App extends React.Component {
         </div>
         <div className="d-flex justify-content-center">
           <img
-            src={process.env.PUBLIC_URL + "/images/loogo.png"}
+            src={process.env.PUBLIC_URL + "/images/circleLogo.png"}
             style={{ width: "90%", height: "auto" }}
           />
         </div>
@@ -137,6 +137,12 @@ class App extends React.Component {
               />
             </audio>
           </p>
+        </div>
+        <div className="center-img">
+          <img
+            src={process.env.PUBLIC_URL + "/images/loogo.png"}
+            style={{ width: "85%", height: "auto" }}
+          />
         </div>
         <div className="center-img">
           <img
