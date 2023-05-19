@@ -120,7 +120,12 @@ class App extends React.Component {
             that you can stop wage cucking and staring at charts. a shitcoin
             coin that will allow you to stop your dastardly habits of edging to
             cartoon porn and rage trading after eating goyslop and playing video
-            games. Coinbase.
+            games. a coin that will allow you to express your beliefs about the
+            true nature of corruption of world governments and financial system
+            without be called a nazi at the dinner table. a coin that will make
+            you so wealthy that you can actually focus on becoming /fit, find a
+            legitimate waifu who respects you not cause your funny but because
+            you literally can buy/choose another. $Coinbase is the redpill. 
           </p>
         </div>
         <div className="center-img">
