@@ -3,12 +3,10 @@ import "./Navbar.css";
 import React from "react";
 
 const Navigation = () => {
-  function utilityClick() {
-    document.getElementById("utility").scrollIntoView({ behavior: "smooth" });
-  }
-
   return (
     <div className="container">
+      {" "}
+      {/* Apply the sticky-container class here */}
       <button className="button">NOT PORN</button>
       <button className="button">NOT PORN</button>
       <button className="button">NOT PORN</button>

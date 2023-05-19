@@ -12,10 +12,10 @@ class App extends React.Component {
         <div>
           <Navigation />
         </div>
-        <div className="d-flex justify-content-center">
-          <div className="logoBox"></div>
-        </div>
-        <div className="d-flex justify-content-center">
+
+        <div className="d-flex justify-content-center rotating-image">
+          {" "}
+          {/* Add the rotating-image class */}
           <img
             src={process.env.PUBLIC_URL + "/images/circleLogo.png"}
             style={{ width: "90%", height: "auto" }}
@@ -150,12 +150,35 @@ class App extends React.Component {
             style={{ width: "80%", height: "auto" }}
           />
         </div>
+        <br />
         <div className="center-img">
           <img
             src={process.env.PUBLIC_URL + "/images/nba.png"}
             style={{ width: "80%", height: "auto" }}
           />
         </div>
+        <br />
+        <div className="center-img">
+          <img
+            src={process.env.PUBLIC_URL + "/images/wolf.png"}
+            style={{ width: "60%", height: "auto" }}
+          />
+        </div>
+        <br />
+        <div className="center-img">
+          <img
+            src={process.env.PUBLIC_URL + "/images/peter1.jpg"}
+            style={{ width: "60%", height: "auto" }}
+          />
+        </div>
+        <br />
+        <div className="center-img">
+          <img
+            src={process.env.PUBLIC_URL + "/images/peter2.jpg"}
+            style={{ width: "60%", height: "auto" }}
+          />
+        </div>
+        {/* floating ponies */}
         <div className="parent">
           <div className="floating-img top-left">
             <img
