@@ -35,13 +35,39 @@ class App extends React.Component {
             <ul>
               <li> quit your job </li>
               <li> dump your girl </li>
-              <li> go outside </li>
               <li> litter in public </li>
               <li> go fuck yourself </li>
             </ul>
           </p>
         </div>
         <br />
+        <div className="square">
+          <p className="textMain">
+            <div id="utility" className="headerBox">
+              How to Buy
+            </div>
+            <ul>
+              <li> Download metamask and create an account </li>
+              <li>
+                {" "}
+                Connect metamask to uniswap or dexView and aquire some @Coinbase{" "}
+              </li>
+              <li> become a free thinker</li>
+              <li>
+                {" "}
+                donald trump{" "}
+                <audio controls autoPlay>
+                  <source
+                    src={process.env.PUBLIC_URL + "/really-rich.mp3"}
+                    type="audio/mpeg"
+                  />
+                </audio>
+              </li>
+            </ul>
+          </p>
+        </div>
+        <br />
+
         <div className="image-container">
           <div className="center-img">
             <img
