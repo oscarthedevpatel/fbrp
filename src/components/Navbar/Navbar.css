@@ -1,0 +1,38 @@
+/* @font-face {
+    font-family: 'main-text';
+    src: url('../../fonts/CapitalisTypOasis.ttf') format('woff2'),
+      
+} */
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  border-color: red;
+  border: 20px;
+  padding-bottom: 15px;
+}
+
+.button {
+  border: 2px solid red;
+  background-color: black;
+  color: red;
+  /* font-family: 'main-text'; */
+  padding: 1vw 2vw;
+  min-width: 13vw;
+  max-width: 25vw;
+  /* margin: 1vw; */
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-size: 12px;
+}
+
+.divider {
+  width: 2px;
+  height: 100%;
+  background-color: red;
+  margin: 0 1vw;
+}

@@ -1,0 +1,168 @@
+
+.App-logo {
+  height: 50vmin;
+  width: 50vmin;
+  /* padding-bottom: 15px; */
+
+}
+
+.title {
+  /* font-family: 'title'; */
+  font-size: 80px;
+  color: black;
+}
+
+html, .background {
+  /* background-color: grey; */
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+}
+
+
+.background {
+  /* background-color: grey; */
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-image: url("/src/images/background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headerBox {
+  justify-content: center;
+  text-align: center;
+  /* font-family: 'title'; */
+  font-size: 4vh;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  text-decoration: none; /* remove underline */
+}
+
+
+.access {
+  justify-content: center;
+  text-align: center;
+  /* font-family: 'title'; */
+  font-size: 5vh;
+  color: purple;
+  background-color: aqua;
+  margin-bottom: 10px;
+  text-decoration: none; /* remove underline */
+}
+a {
+  text-decoration: none; /* remove underline */
+  color: black; /* set default color */
+}
+
+a:hover {
+  color: red; /* change color when hovered */
+}
+
+.slogan {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  font-style: italic;
+  font-family: 'Bebas Neue';
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-img {
+  text-align: center;
+}
+
+
+.square {
+  display: flex;
+  width: 85%;
+  margin: 0 auto; /* Center horizontally */
+  /* margin-bottom: 2%; */
+  align-items: center;
+  background-color: red;
+  border-color: black;
+  border: 20px;
+  border: 2px solid black;
+  justify-content: center;
+  
+}
+
+.warningSub {
+  font-weight: 700;
+  font-size: 2vh;
+  color: yellow;
+
+}
+
+.warning {
+  font-weight: 700;
+  font-size: 4vh;
+  color: yellow;
+  animation: flashing 1s infinite;
+  text-align: center;
+}
+
+@keyframes flashing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.textMain {
+  margin: auto;
+  /* font-family: 'Bebas Neue'; */
+  padding: 10px;
+  font-size: 15px;
+  color: black;
+  /* font-family: 'main-text' */
+}
+
+
+
+.floating-img {
+  position: fixed;
+  top: 0;
+}
+
+.top-left {
+  left: 0;
+}
+
+.top-right {
+  right: 0;
+}
+
+.falling-image {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: fallAnimation 4s linear infinite;
+}
+
+@keyframes fallAnimation {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 100vh;
+    opacity: .5;
+  }
+}
