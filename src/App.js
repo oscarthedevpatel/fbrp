@@ -52,7 +52,12 @@ class App extends React.Component {
                 {" "}
                 Connect metamask to uniswap or dexView and aquire some @Coinbase{" "}
               </li>
+              <li>
+                {" "}
+                CONTRACT ADDRESS: 0x367cC5042E8eb850fE0e78a84b2f0df2A6aa027a
+              </li>
               <li> become a free thinker</li>
+
               <li>
                 {" "}
                 donald trump{" "}
