@@ -114,14 +114,13 @@ class App extends React.Component {
             <div id="utility" className="headerBox">
               Our Story
             </div>
-            In a world where the allure of (Free Based Red Pill) tokens
-            captivates the attention of all women, the wise groyper remains
-            focused and red pilled as ever. While some may be mesmerized by the
-            charm and fascination that surrounds those who possess this token,
-            the true giga chad understand that there is a greater goal in sight.
-            So, amidst the allure, remember to stay resolute and keep your eyes
-            fixed on the based and red pilled free based path that lies ahead.
-            $COINBASE TO THE MOON. PEPE WILL MEET YOU THERE
+            In the world of shit coins and memes, nothing is guaranteed other
+            than 0. but within the madness there is a slimmer of hope. the hope
+            that a shitcoin, a shitcoin not like the rest, will send so hard
+            that you can stop wage cucking and staring at charts. a shitcoin
+            coin that will allow you to stop your dastardly habits of edging to
+            cartoon porn and rage trading after eating goyslop and playing video
+            games. Coinbase.
           </p>
         </div>
         <div className="center-img">
