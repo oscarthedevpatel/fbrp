@@ -57,17 +57,6 @@ class App extends React.Component {
                 CONTRACT ADDRESS: 0x367cC5042E8eb850fE0e78a84b2f0df2A6aa027a
               </li>
               <li> become a free thinker</li>
-
-              <li>
-                {" "}
-                donald trump{" "}
-                <audio controls autoPlay>
-                  <source
-                    src={process.env.PUBLIC_URL + "/really-rich.mp3"}
-                    type="audio/mpeg"
-                  />
-                </audio>
-              </li>
             </ul>
           </p>
         </div>
