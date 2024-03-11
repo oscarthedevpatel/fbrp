@@ -9,7 +9,7 @@ const Navigation = () => {
       {/* Apply the sticky-container class here */}
       <button className="button">NOT PORN</button>
       <a href="https://t.me/freebaseredpill" className="button">
-        Dextoolsss
+        Dextools
       </a>
       <button className="button">NOT PORN</button>
       <a href="https://t.me/freebaseredpill" className="button">
