@@ -8,7 +8,9 @@ const Navigation = () => {
       {" "}
       {/* Apply the sticky-container class here */}
       <button className="button">NOT PORN</button>
-      <button className="button">NOT PORN</button>
+      <a href="https://t.me/freebaseredpill" className="button">
+        Dextools
+      </a>
       <button className="button">NOT PORN</button>
       <a href="https://t.me/freebaseredpill" className="button">
         Telegram
